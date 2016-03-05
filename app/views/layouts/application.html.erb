@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>H1</title>
+  <title>13 Hedigies</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -9,7 +9,7 @@
 <body>
 	<nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+    
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -40,12 +40,12 @@
       </ul>
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+          <input type="text" class="form-control" placeholder="Enter Fund">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><a href="#">SignIn/SignOut</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -60,6 +60,30 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+
+
+
+<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+	<div class="container">
+		<footer id="footer">
+		<p class="navbar-text pull-left">&copy; 2016 Powered by Uncle Bill & LV</span></p>
+
+			<a href="#" class="navbar-text pull-right">Back to top</a>
+			<a href="#" class="navbar-text pull-right">Contact Us</a>
+			<a href="#" class="navbar-text pull-right">About Us</a>
+			
+			
+			<ul class="nav navbar-nav pull-left">
+			<div class="btn-md btn- btn-social btn-facebook id" id="facebook"> 
+			</div>
+			</ul>
+
+		</footer>
+	</div>
+</div>
+
+
 
 <%= yield %>
 
